@@ -1,0 +1,83 @@
+.body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-rows: repeat(5, 100px);
+  grid-template-columns: repeat(4, 100px);
+  gap: 3px;
+  justify-content: center;
+
+  height: 100vh;
+  align-content: center;
+}
+
+.item {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#item1 {
+  grid-column: span 4;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+#item5 {
+  background-color: silver;
+  font-size: x-large;
+  font-weight: bold;
+}
+#item9 {
+  background-color: silver;
+  font-size: x-large;
+  font-weight: bold;
+}
+#item13 {
+  background-color: silver;
+  font-size: x-large;
+  font-weight: bold;
+}
+#item15 {
+  font-size: x-large;
+  font-weight: bold;
+}
+#item16 {
+  background-color: lightcoral;
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#item17 {
+  background-color: silver;
+  font-size: x-large;
+  font-weight: bold;
+}
+#item18 {
+  display: flex;
+  grid-column: span 4;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: silver;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.op {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: silver;
+  font-size: x-large;
+  font-weight: bold;
+}
